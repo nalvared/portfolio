@@ -48,5 +48,29 @@
 			"title": "Machine Learning (Regression & Clustering)",
 			"bar": "1"
 		}
+	},
+	"work": {
+		"title": "Work experience",
+		"last": {
+			"date": "Nov 2017",
+			"title": "Teaching and Research staff",
+			"subtitle": "Universidad de La Laguna",
+			"description": "I've worked in a broad variety of topics with the focus in the security, from airports luggage to mobility in the streets, increasing the efficiency and safety as much as possible."
+		},
+		"w2": {
+			"date": "Feb 2016",
+			"title": "Scholarship researcher",
+			"subtitle": "Binter Sistemas SL",
+			"description": "I was collaborating in the creation a indoor location system based on Bluetooth Low Energy devices and mobile application in order to assign better the tasks inside an airport."
+		},
+		"w1": {
+			"date": "May 2015",
+			"title": "Academic practices",
+			"subtitle": "Metropolitano de Tenerife SA",
+			"description": "I was helping in the development of an algorithm for behavior analysis, among other."
+		},
+		"first": {
+			"date": "Feb 2015"
+		}
 	}
 }

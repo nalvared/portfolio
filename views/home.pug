@@ -71,4 +71,32 @@ html
                         .title= __("skills.sk5.title")
                         .progress-bar(class="bar-" + __("skills.sk5.bar"))
             section
-                h1 Work experience
+                .work-exp
+                    icon.work
+                    h1= __("work.title")
+                    .group
+                        icon.bubble
+                        .date= __("work.last.date")
+                        .title
+                            = __("work.last.title")
+                            .subtitle= __("work.last.subtitle")
+                            p.description= __("work.last.description")
+                    .group
+                        icon.bubble
+                        .date= __("work.w2.date")
+                        .title
+                            = __("work.w2.title")
+                            .subtitle= __("work.w2.subtitle")
+                            p.description= __("work.w2.description")
+                    .group
+                        icon.bubble
+                        .date= __("work.w1.date")
+                        .title
+                            = __("work.w1.title")
+                            .subtitle= __("work.w1.subtitle")
+                            p.description= __("work.w1.description")
+                    .group
+                        icon.bubble
+                        .date= __("work.first.date")
+
+

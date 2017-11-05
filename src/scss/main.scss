@@ -12,7 +12,10 @@ $fontFamily: 'Montserrat', sans-serif;
 $navHeight: 60px;
 
 $profileImageDim: 256px;
-$iconDim: 32px;
+$iconDim: 48px;
+$iconSmallDim: 32px;
+$iconMiniDim: 24px;
+
 $paddingDefault: 16px;
 $indentDefault: 25px;
 
@@ -26,9 +29,10 @@ ul {
 }
 
 .navigation {
+    width: 100%;
     list-style: none;
     margin: 0;
-    background: $colorDark;
+    background: $colorPrimary;
     @include display-flex;
     -webkit-flex-flow: row wrap;
     justify-content: flex-end;
@@ -90,7 +94,7 @@ ul {
 .main {
  
     display: flex;  
-    flex-flow: row wrap;   
+    flex-flow: row wrap;
 
     h1, h2 {
         margin: 0;
@@ -107,7 +111,7 @@ ul {
     }
 
     aside {
-        background: $colorDark;
+        background: $colorPrimary;
         flex: 1;
         order: 1;
         color: $colorTextLight;
@@ -118,13 +122,12 @@ ul {
         justify-content: flex-start;
         
         .profile {
-            background: $colorPrimary;
+            background: $colorDark;
             padding: $paddingDefault;
             min-width: $profileImageDim;
             text-align: center;
 
             img.clip {
-                z-index: 2;
                 width: $profileImageDim;
                 height: $profileImageDim;
                 clip-path: circle(at center);
@@ -166,7 +169,7 @@ ul {
             padding: 0 $paddingDefault;
 
             icon.email {
-                background-image: url("../img/email.svg");
+                background-image: url("../img/contact.svg");
             }
 
             h1 {
@@ -186,14 +189,18 @@ ul {
                 icon {
                     vertical-align: middle;
                     margin-right: $indentDefault;
+                    background-size: $iconSmallDim $iconSmallDim;
+                    display: inline-block;
+                    width: $iconSmallDim; 
+                    height: $iconSmallDim;
                 }
 
                 icon.mobile {
-                    background-image: url("../img/smartphone.svg");
+                    background-image: url("../img/phone.svg");
                 }
 
                 icon.location {
-                    background-image: url("../img/location.svg");
+                    background-image: url("../img/gps.svg");
                 }
 
                 icon.globe {
@@ -239,25 +246,24 @@ ul {
                 }
 
                 .progress-bar.bar-1 {
-                    @include gradient-bar(white, $colorPrimary, 20);
+                    @include gradient-bar(white, $colorDark, 20);
                 }
 
                 .progress-bar.bar-2 {
-                    @include gradient-bar(white, $colorPrimary, 40);
+                    @include gradient-bar(white, $colorDark, 40);
                 }
 
                 .progress-bar.bar-3 {
-                    @include gradient-bar(white, $colorPrimary, 60);
+                    @include gradient-bar(white, $colorDark, 60);
                 }
 
                 .progress-bar.bar-4 {
-                    @include gradient-bar(white, $colorPrimary, 80);
+                    @include gradient-bar(white, $colorDark, 80);
                 }
 
                 .progress-bar.bar-5 {
-                    @include gradient-bar(white, $colorPrimary, 100);
+                    @include gradient-bar(white, $colorDark, 100);
                 }
-
             }
         }
     }
@@ -265,5 +271,75 @@ ul {
     section {
         flex: 2;
         order: 2;
+
+        icon {
+            margin: $paddingDefault 0;
+            display: inline-block;
+            background-size: $iconDim $iconDim;
+            width: $iconDim; 
+            height: $iconDim;
+
+            &.bubble {
+                background-image: url("../img/bubble.svg");
+                background-size: $iconMiniDim $iconMiniDim;
+                width: $iconMiniDim; 
+                height: $iconMiniDim;
+                vertical-align: middle;
+                z-index: 10;
+                position: relative;
+                margin-left: $paddingDefault / 2;
+            }
+        }
+
+        .work-exp {
+            padding: 0 $paddingDefault;
+
+            icon.work {
+                background-image: url("../img/work.svg");
+            }
+
+            h1 {
+                margin: $paddingDefault 0;
+                display: inline-block;
+                line-height: $iconDim;
+                vertical-align: top;
+                padding-left: $paddingDefault;
+            }
+
+            p {
+                font-weight: 200;
+                text-indent: $indentDefault;
+            }
+
+            .group {
+                .date {
+                    display: inline-block;
+                    margin: 0 $paddingDefault;
+                }
+
+                .title {
+                    position: relative;
+                    display: block;
+                    padding: 0 $paddingDefault*2;
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    margin-left: $paddingDefault;
+                    border-left: solid $paddingDefault / 2 $colorAccent;
+
+                    .subtitle {
+                        margin: 0;
+                        font-size: 0.9em;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 0.7em;
+                        text-indent: 0;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
     }
 }

@@ -7,9 +7,10 @@ ul {
   padding: 0 !important; }
 
 .navigation {
+  width: 100%;
   list-style: none;
   margin: 0;
-  background: #151e2d;
+  background: #2d4161;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -65,7 +66,7 @@ ul {
   .main h2 {
     font-weight: 100 !important; }
   .main aside {
-    background: #151e2d;
+    background: #2d4161;
     flex: 1;
     order: 1;
     color: white;
@@ -78,21 +79,20 @@ ul {
     flex-flow: column;
     justify-content: flex-start; }
     .main aside .profile {
-      background: #2d4161;
+      background: #151e2d;
       padding: 16px;
       min-width: 256px;
       text-align: center; }
       .main aside .profile img.clip {
-        z-index: 2;
         width: 256px;
         height: 256px;
         clip-path: circle(at center); }
     .main aside icon {
       margin: 16px 0;
-      background-size: 32px 32px;
+      background-size: 48px 48px;
       display: inline-block;
-      width: 32px;
-      height: 32px; }
+      width: 48px;
+      height: 48px; }
     .main aside .aboutme {
       padding: 0 16px; }
       .main aside .aboutme icon.user {
@@ -100,7 +100,7 @@ ul {
       .main aside .aboutme h1 {
         margin: 16px 0;
         display: inline-block;
-        line-height: 32px;
+        line-height: 48px;
         vertical-align: top;
         padding-left: 16px; }
       .main aside .aboutme p {
@@ -109,11 +109,11 @@ ul {
     .main aside .contact {
       padding: 0 16px; }
       .main aside .contact icon.email {
-        background-image: url("../img/email.svg"); }
+        background-image: url("../img/contact.svg"); }
       .main aside .contact h1 {
         margin: 16px 0;
         display: inline-block;
-        line-height: 32px;
+        line-height: 48px;
         vertical-align: top;
         padding-left: 16px; }
       .main aside .contact p {
@@ -123,11 +123,15 @@ ul {
         word-break: break-word; }
         .main aside .contact p icon {
           vertical-align: middle;
-          margin-right: 25px; }
+          margin-right: 25px;
+          background-size: 32px 32px;
+          display: inline-block;
+          width: 32px;
+          height: 32px; }
         .main aside .contact p icon.mobile {
-          background-image: url("../img/smartphone.svg"); }
+          background-image: url("../img/phone.svg"); }
         .main aside .contact p icon.location {
-          background-image: url("../img/location.svg"); }
+          background-image: url("../img/gps.svg"); }
         .main aside .contact p icon.globe {
           background-image: url("../img/globe.svg"); }
     .main aside .skills {
@@ -137,7 +141,7 @@ ul {
       .main aside .skills h1 {
         margin: 16px 0;
         display: inline-block;
-        line-height: 32px;
+        line-height: 48px;
         vertical-align: top;
         padding-left: 16px; }
       .main aside .skills p {
@@ -158,50 +162,98 @@ ul {
           -ms-border-radius: 16px;
           border-radius: 16px; }
         .main aside .skills .group .progress-bar.bar-1 {
-          background: #2d4161;
+          background: #151e2d;
           /* Old browsers */
-          background: -moz-linear-gradient(left, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          background: -moz-linear-gradient(left, white 0%, white 10%, #151e2d 30%, #151e2d 100%);
           /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          background: -webkit-linear-gradient(left, white 0%, white 10%, #151e2d 30%, #151e2d 100%);
           /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          background: linear-gradient(to right, white 0%, white 10%, #151e2d 30%, #151e2d 100%);
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
         .main aside .skills .group .progress-bar.bar-2 {
-          background: #2d4161;
+          background: #151e2d;
           /* Old browsers */
-          background: -moz-linear-gradient(left, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          background: -moz-linear-gradient(left, white 0%, white 30%, #151e2d 50%, #151e2d 100%);
           /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          background: -webkit-linear-gradient(left, white 0%, white 30%, #151e2d 50%, #151e2d 100%);
           /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          background: linear-gradient(to right, white 0%, white 30%, #151e2d 50%, #151e2d 100%);
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
         .main aside .skills .group .progress-bar.bar-3 {
-          background: #2d4161;
+          background: #151e2d;
           /* Old browsers */
-          background: -moz-linear-gradient(left, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          background: -moz-linear-gradient(left, white 0%, white 50%, #151e2d 70%, #151e2d 100%);
           /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          background: -webkit-linear-gradient(left, white 0%, white 50%, #151e2d 70%, #151e2d 100%);
           /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          background: linear-gradient(to right, white 0%, white 50%, #151e2d 70%, #151e2d 100%);
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
         .main aside .skills .group .progress-bar.bar-4 {
-          background: #2d4161;
+          background: #151e2d;
           /* Old browsers */
-          background: -moz-linear-gradient(left, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          background: -moz-linear-gradient(left, white 0%, white 70%, #151e2d 90%, #151e2d 100%);
           /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          background: -webkit-linear-gradient(left, white 0%, white 70%, #151e2d 90%, #151e2d 100%);
           /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          background: linear-gradient(to right, white 0%, white 70%, #151e2d 90%, #151e2d 100%);
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
         .main aside .skills .group .progress-bar.bar-5 {
-          background: #2d4161;
+          background: #151e2d;
           /* Old browsers */
-          background: -moz-linear-gradient(left, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          background: -moz-linear-gradient(left, white 0%, white 90%, #151e2d 110%, #151e2d 100%);
           /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          background: -webkit-linear-gradient(left, white 0%, white 90%, #151e2d 110%, #151e2d 100%);
           /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          background: linear-gradient(to right, white 0%, white 90%, #151e2d 110%, #151e2d 100%);
           /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
   .main section {
     flex: 2;
     order: 2; }
+    .main section icon {
+      margin: 16px 0;
+      display: inline-block;
+      background-size: 48px 48px;
+      width: 48px;
+      height: 48px; }
+      .main section icon.bubble {
+        background-image: url("../img/bubble.svg");
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        z-index: 10;
+        position: relative;
+        margin-left: 8px; }
+    .main section .work-exp {
+      padding: 0 16px; }
+      .main section .work-exp icon.work {
+        background-image: url("../img/work.svg"); }
+      .main section .work-exp h1 {
+        margin: 16px 0;
+        display: inline-block;
+        line-height: 48px;
+        vertical-align: top;
+        padding-left: 16px; }
+      .main section .work-exp p {
+        font-weight: 200;
+        text-indent: 25px; }
+      .main section .work-exp .group .date {
+        display: inline-block;
+        margin: 0 16px; }
+      .main section .work-exp .group .title {
+        position: relative;
+        display: block;
+        padding: 0 32px;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-left: 16px;
+        border-left: solid 8px #502535; }
+        .main section .work-exp .group .title .subtitle {
+          margin: 0;
+          font-size: 0.9em;
+          font-weight: 400; }
+        .main section .work-exp .group .title p {
+          font-weight: 400;
+          font-size: 0.7em;
+          text-indent: 0;
+          margin-bottom: 0; }
