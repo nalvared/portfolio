@@ -2,13 +2,12 @@
 	"home_title": "Welcome",
 	"nav": {
 		"name": "Néstor Álvarez-Díaz",
-		"profile": "Me",
 		"about_me": "About me",
 		"contact": "Contact",
 		"skills": "Skills",
-		"work": "Work experience",
+		"work": "Work",
 		"education": "Education",
-		"research": "Main research"
+		"research": "Research"
 	},
 	"profile": {
 		"name": "Néstor Álvarez-Díaz",
