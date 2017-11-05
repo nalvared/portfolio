@@ -6,6 +6,18 @@ body {
 ul {
   padding: 0 !important; }
 
+.floating-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  margin: 16px 0;
+  background-size: 48px 48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-image: url("../img/arrow.svg"); }
+
 .navigation {
   width: 100%;
   list-style: none;
@@ -51,7 +63,7 @@ ul {
       padding: 0 10px; }
     .navigation a.tag {
       display: inherit;
-      background: #2d4161;
+      background: #502535;
       cursor: default; } }
 
 .main {
@@ -136,8 +148,8 @@ ul {
           background-image: url("../img/globe.svg"); }
     .main aside .skills {
       padding: 0 16px; }
-      .main aside .skills icon.crown {
-        background-image: url("../img/crown.svg"); }
+      .main aside .skills icon.skill {
+        background-image: url("../img/skills.svg"); }
       .main aside .skills h1 {
         margin: 16px 0;
         display: inline-block;
@@ -224,35 +236,51 @@ ul {
         z-index: 10;
         position: relative;
         margin-left: 8px; }
-    .main section .work-exp {
-      padding: 0 16px; }
-      .main section .work-exp icon.work {
+      .main section icon.bubble-terminal {
+        background-image: url("../img/bubble-terminal.svg");
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        z-index: 10;
+        position: relative;
+        margin-left: 8px; }
+    .main section .work-exp, .main section .education, .main section .research {
+      padding: 0 16px;
+      margin: 16px 0; }
+      .main section .work-exp icon.work, .main section .education icon.work, .main section .research icon.work {
         background-image: url("../img/work.svg"); }
-      .main section .work-exp h1 {
+      .main section .work-exp icon.studies, .main section .education icon.studies, .main section .research icon.studies {
+        background-image: url("../img/studies.svg"); }
+      .main section .work-exp icon.paper, .main section .education icon.paper, .main section .research icon.paper {
+        background-image: url("../img/research.svg"); }
+      .main section .work-exp h1, .main section .education h1, .main section .research h1 {
         margin: 16px 0;
         display: inline-block;
         line-height: 48px;
         vertical-align: top;
-        padding-left: 16px; }
-      .main section .work-exp p {
+        padding-left: 16px;
+        font-weight: 600 !important;
+        font-size: 2em; }
+      .main section .work-exp p, .main section .education p, .main section .research p {
         font-weight: 200;
         text-indent: 25px; }
-      .main section .work-exp .group .date {
+      .main section .work-exp .group .date, .main section .education .group .date, .main section .research .group .date {
         display: inline-block;
         margin: 0 16px; }
-      .main section .work-exp .group .title {
+      .main section .work-exp .group .title, .main section .education .group .title, .main section .research .group .title {
         position: relative;
         display: block;
         padding: 0 32px;
         font-weight: bold;
         font-size: 1.5em;
         margin-left: 16px;
-        border-left: solid 8px #502535; }
-        .main section .work-exp .group .title .subtitle {
+        border-left: solid 4px #502535; }
+        .main section .work-exp .group .title .subtitle, .main section .education .group .title .subtitle, .main section .research .group .title .subtitle {
           margin: 0;
           font-size: 0.9em;
           font-weight: 400; }
-        .main section .work-exp .group .title p {
+        .main section .work-exp .group .title p, .main section .education .group .title p, .main section .research .group .title p {
           font-weight: 400;
           font-size: 0.7em;
           text-indent: 0;

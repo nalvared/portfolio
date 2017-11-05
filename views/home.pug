@@ -10,26 +10,25 @@ html
         // Link styles in CSS public/css/*.css
         link(rel="stylesheet", href="./css/main.css")
     body
-        ul.navigation(role="navigation")
+        ul.navigation#top(role="navigation")
             li
-                a.tag(href="#")= __("nav.name")
+                a.tag= __("nav.name")
             li
-                a(href="#")= __("nav.profile")
+                a(href="#me")= __("nav.about_me")
             li
-                a(href="#")= __("nav.about_me")
+                a(href="#contact")= __("nav.contact")
             li
-                a(href="#")= __("nav.contact")
+                a(href="#skills")= __("nav.skills")
             li
-                a(href="#")= __("nav.skills")
+                a(href="#work")= __("nav.work")
             li
-                a(href="#")= __("nav.work")
+                a(href="#education")= __("nav.education")
             li
-                a(href="#")= __("nav.education")
-            li
-                a(href="#")= __("nav.research")
+                a(href="#research")= __("nav.research")
         .main
+            a.floating-button(href="#top")
             aside
-                .profile
+                .profile#me
                     img.clip(src="./img/profile.jpg", alt="Profile photo")
                     .title
                         h1= __("profile.name")
@@ -40,7 +39,7 @@ html
                     p= __("about.p1")
                     p= __("about.p2")
                     p= __("about.p3")
-                .contact
+                .contact#contact
                     icon.email
                     h1= __("contact.title")
                     p
@@ -52,8 +51,8 @@ html
                     p
                         icon.location
                         = __("contact.address")
-                .skills
-                    icon.crown
+                .skills#skills
+                    icon.skill
                     h1= __("skills.title")
                     .group
                         .title= __("skills.sk1.title")
@@ -71,7 +70,7 @@ html
                         .title= __("skills.sk5.title")
                         .progress-bar(class="bar-" + __("skills.sk5.bar"))
             section
-                .work-exp
+                .work-exp#work
                     icon.work
                     h1= __("work.title")
                     .group
@@ -96,7 +95,71 @@ html
                             .subtitle= __("work.w1.subtitle")
                             p.description= __("work.w1.description")
                     .group
-                        icon.bubble
+                        icon.bubble-terminal
                         .date= __("work.first.date")
+                .education#education
+                    icon.studies
+                    h1= __("studies.title")
+                    .group
+                        icon.bubble
+                        .date= __("studies.last.date")
+                        .title
+                            = __("studies.last.title")
+                            .subtitle= __("studies.last.subtitle")
+                    .group
+                        icon.bubble
+                        .date= __("studies.s2.date")
+                        .title
+                            = __("studies.s2.title")
+                            .subtitle= __("studies.s2.subtitle")
+                    .group
+                        icon.bubble
+                        .date= __("studies.s1.date")
+                        .title
+                            = __("studies.s1.title")
+                            .subtitle= __("studies.s1.subtitle")
+                    .group
+                        icon.bubble-terminal
+                        .date= __("studies.s0.date")
+                .research#research
+                    icon.paper
+                    h1= __("research.title")
+                    .group
+                        icon.bubble
+                        .date= __("research.last.date")
+                        .title
+                            = __("research.last.title")
+                            .subtitle= __("research.last.subtitle")
+                            p.description= __("research.last.description")
+                    .group
+                        icon.bubble
+                        .date= __("research.r4.date")
+                        .title
+                            = __("research.r4.title")
+                            .subtitle= __("research.r4.subtitle")
+                            p.description= __("research.r4.description")
+                    .group
+                        icon.bubble
+                        .date= __("research.r3.date")
+                        .title
+                            = __("research.r3.title")
+                            .subtitle= __("research.r3.subtitle")
+                            p.description= __("research.r3.description")
+                    .group
+                        icon.bubble
+                        .date= __("research.r2.date")
+                        .title
+                            = __("research.r2.title")
+                            .subtitle= __("research.r2.subtitle")
+                            p.description= __("research.r2.description")
+                    .group
+                        icon.bubble
+                        .date= __("research.r1.date")
+                        .title
+                            = __("research.r1.title")
+                            .subtitle= __("research.r1.subtitle")
+                            p.description= __("research.r1.description")
+                    .group
+                        icon.bubble-terminal
 
 

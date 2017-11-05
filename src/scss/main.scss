@@ -28,6 +28,19 @@ ul {
     padding: 0 !important;
 }
 
+.floating-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    margin: $paddingDefault 0;
+    background-size: $iconDim $iconDim;
+    display: inline-block;
+    width: $iconDim; 
+    height: $iconDim;
+    background-image: url("../img/arrow.svg");
+}
+
 .navigation {
     width: 100%;
     list-style: none;
@@ -85,7 +98,7 @@ ul {
 
         a.tag {
             display: inherit;
-            background: $colorPrimary;
+            background: $colorAccent;
             cursor: default;
         }
     }
@@ -212,8 +225,8 @@ ul {
         .skills {
             padding: 0 $paddingDefault;
 
-            icon.crown {
-                background-image: url("../img/crown.svg");
+            icon.skill {
+                background-image: url("../img/skills.svg");
             }
 
             h1 {
@@ -289,13 +302,33 @@ ul {
                 position: relative;
                 margin-left: $paddingDefault / 2;
             }
+
+            &.bubble-terminal {
+                background-image: url("../img/bubble-terminal.svg");
+                background-size: $iconMiniDim $iconMiniDim;
+                width: $iconMiniDim; 
+                height: $iconMiniDim;
+                vertical-align: middle;
+                z-index: 10;
+                position: relative;
+                margin-left: $paddingDefault / 2;
+            }
         }
 
-        .work-exp {
+        .work-exp, .education, .research {
             padding: 0 $paddingDefault;
+            margin: $paddingDefault 0;
 
             icon.work {
                 background-image: url("../img/work.svg");
+            }
+
+            icon.studies {
+                background-image: url("../img/studies.svg");
+            }
+
+            icon.paper {
+                background-image: url("../img/research.svg");
             }
 
             h1 {
@@ -304,6 +337,8 @@ ul {
                 line-height: $iconDim;
                 vertical-align: top;
                 padding-left: $paddingDefault;
+                font-weight: 600 !important;
+                font-size: 2em;
             }
 
             p {
@@ -324,7 +359,7 @@ ul {
                     font-weight: bold;
                     font-size: 1.5em;
                     margin-left: $paddingDefault;
-                    border-left: solid $paddingDefault / 2 $colorAccent;
+                    border-left: solid 4px $colorAccent;
 
                     .subtitle {
                         margin: 0;

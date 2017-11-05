@@ -72,5 +72,60 @@
 		"first": {
 			"date": "Feb 2015"
 		}
+	},
+	"studies": {
+		"title": "Education",
+		"last": {
+			"date": "2017 - 2018",
+			"title": "Business Intelligence and Big Data",
+			"subtitle": "Master by Escuela de Organización Industrial (EOI)",
+			"description": "studies.last.description"
+		},
+		"s2": {
+			"date": "2015 - 2017",
+			"title": "Security of information and communication technologies (acron. MISTIC)",
+			"subtitle": "Master by Universitat Oberta de Catalunya"
+		},
+		"s1": {
+			"date": "2010 - 2015",
+			"title": "Degree in computer engineering",
+			"subtitle": "Degree by Universidad de La Laguna"
+		},
+		"s0": {
+			"date": "High School & School"
+		}
+	},
+	"research": {
+		"title": "Research",
+		"last": {
+			"date": "October, 17, 2017",
+			"title": "Smart Contracts based on Blockchain for Logistics Management",
+			"subtitle": "International Conference on Internet of Things and Machine Learning",
+			"description": "Current trade is being heavily influenced by emerging technologies. Despite many technological advances, logistics management is at a standstill about the improvements communication systems. Updating information during the whole process is an essential element in such systems but trust in that information is even more important. For this reason, providing a mechanism that can be verified and that allows increasing the level of trust of the stakeholders could contribute to the improvement of the logistic process. The main aim of this paper is to show an analysis of the current state of blockchain technology and its possibilities regarding the development of decentralized and self-verifiable applications focusing on their integrity. Besides, a new concept of program is defined thanks to the use of a set of smart contracts which should be deployed over the Ethereum blockchain."
+		},
+		"r4": {
+			"date": "January 16, 2017",
+			"title": "A Luggage Control System Based on NFC and Homomorphic Cryptography",
+			"subtitle": "16 de ene. de 2017  Descripción de la publicaciónMobile Information Systems Volume 2017 (2017), Article ID 2095161. 2015 ISI JCR Impact Factor: 0.842",
+			"description": "We propose an innovative luggage tracking and management system that can be used to secure airport terminal services and reduce the waiting time of passengers during check-in. This addresses an urgent need to streamline and optimize passenger flows at airport terminals and lowers the risk of terrorist threats. The system employs Near Field Communication (NFC) technology and homomorphic cryptography (the Paillier cryptosystem) to protect wireless communication and stored data. A security analysis and a performance test show the usability and applicability of the proposed system."
+		},
+		"r3": {
+			"date": "July 5, 2016",
+			"title": "Safe Control of Luggage with Homomorphic Cryptography",
+			"subtitle": "16th International Conference Computational and Mathematical Methods in Science and Engineering",
+			"description": "The aim of this proposal is to provide passengers with a complete system that allows reducing the waiting time when people try to check-in their luggage as well as with an innovative tool for the control and the management of suitcases. This goal tries to cover the need of optimizing passengers' operations inside airport terminals. Besides, the proposal allows increasing the security of air transport from the point of view of the control of the luggage, which currently is critical due to the existence of terrorist threats. For this purpose, Near Field Communication (NFC) is used and wireless communications have been protected with a scheme based on homomorphic cryptography, and in particular, in the Paillier cryptosystem."
+		},
+		"r2": {
+			"date": "February 26, 2017",
+			"title": "Optimizing Resource Allocation and Indoor Location Using Bluetooth Low Energy",
+			"subtitle": "ICATM 2016 : 18th International Conference on Air Transport Management",
+			"description": "The recent tendency of 'Internet of Things' (IoT) has developed in the last years, causing the emergence of innovative communication methods among multiple devices. The appearance of Bluetooth Low Energy (BLE) has allowed a push to IoT in relation to smartphones. In this moment, a set of new applications related to several topics like entertainment and advertisement has begun to be developed but not much has been done till now to take advantage of the potential that these technologies can offer on many business areas and in everyday tasks. In the present work, the application of BLE technology and smartphones is proposed on some business areas related to the optimization of resource allocation in huge facilities like airports. An indoor location system has been developed through triangulation methods with the use of BLE beacons. The described system can be used to locate all employees inside the building in such a way that any task can be automatically assigned to a group of employees. It should be noted that this system cannot only be used to link needs with employees according to distances, but it also takes into account other factors like occupation level or category. In addition, it has been endowed with a security system to manage business and personnel sensitive data. The efficiency of communications is another essential characteristic that has been taken into account in this work."
+		},
+		"r1": {
+			"date": "July 22, 2015",
+			"title": "Task assignment through indoor location with Bluetooth Low Energy devices",
+			"subtitle": "4th International Conference on Theory and Practice in Modern Computing",
+			"description": "This work combines smartphones with Bluetooth Low Energy devices with the purpose of guaranteeing an efficient communication service in indoor installations. The combination of these two tools allows creating an innovative control unit to provide a more efficient and secure communication channel between a company and its employees. Besides, the system has also been endowed with the ability to optimize the assignment of the tasks using an indoor location system. This is part of a work in progress, which includes the deployment of the proposed system in an airport in order to optimize ground operations inside the airport."
+		}
 	}
 }
