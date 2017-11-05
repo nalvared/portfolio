@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700');
+@import 'functions';
+
+$colorDark: #151e2d;
+$colorPrimary : #2d4161;
+$colorAccent: #502535;
+$colorTextLight: white;
+
+$fontFamily: 'Montserrat', sans-serif;
+
+$navHeight: 60px;
+
+$profileImageDim: 256px;
+$iconDim: 32px;
+$paddingDefault: 16px;
+$indentDefault: 25px;
+
+body {
+    margin: 0 auto;
+    font-family: $fontFamily;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: $colorDark;
+    @include display-flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+    min-height: $navHeight;
+
+    li {
+        line-height: $navHeight;
+        padding: 0 !important;
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        padding: 0 1em;
+        color: $colorTextLight;
+        transition: background 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);   
+    }
+
+    a.tag {
+        display: none;
+    }
+
+    a:hover {
+        background: $colorAccent;
+        transition: background 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+    }
+}
+  
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+
+        li {
+            flex-grow: 1;
+            text-align: center;
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+
+        a { 
+            text-align: center; 
+            padding: 0 10px;
+        }
+
+        a.tag {
+            display: inherit;
+            background: $colorPrimary;
+            cursor: default;
+        }
+    }
+}
+
+.main {
+ 
+    display: flex;  
+    flex-flow: row wrap;   
+
+    h1, h2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-weight: 300 !important;
+    }
+
+    h2 {
+        font-weight: 100 !important;
+    }
+
+    aside {
+        background: $colorDark;
+        flex: 1;
+        order: 1;
+        color: $colorTextLight;
+        padding-bottom: $paddingDefault;
+
+        @include display-flex;   
+        flex-flow: column;
+        justify-content: flex-start;
+        
+        .profile {
+            background: $colorPrimary;
+            padding: $paddingDefault;
+            min-width: $profileImageDim;
+            text-align: center;
+
+            img.clip {
+                z-index: 2;
+                width: $profileImageDim;
+                height: $profileImageDim;
+                clip-path: circle(at center);
+            }
+
+            
+        }
+        
+        icon {
+            margin: $paddingDefault 0;
+            background-size: $iconDim $iconDim;
+            display: inline-block;
+            width: $iconDim; 
+            height: $iconDim;
+        }
+
+        .aboutme {
+            padding: 0 $paddingDefault;
+
+            icon.user {
+                background-image: url("../img/user.svg");
+            }
+
+            h1 {
+                margin: $paddingDefault 0;
+                display: inline-block;
+                line-height: $iconDim;
+                vertical-align: top;
+                padding-left: $paddingDefault;
+            }
+
+            p {
+                font-weight: 200;
+                text-indent: $indentDefault;
+            }
+        }
+
+        .contact {
+            padding: 0 $paddingDefault;
+
+            icon.email {
+                background-image: url("../img/email.svg");
+            }
+
+            h1 {
+                margin: $paddingDefault 0;
+                display: inline-block;
+                line-height: $iconDim;
+                vertical-align: top;
+                padding-left: $paddingDefault;
+            }
+
+            p {
+                font-weight: 200;
+                padding-left: $indentDefault;
+                margin: 0;
+                word-break: break-word;
+
+                icon {
+                    vertical-align: middle;
+                    margin-right: $indentDefault;
+                }
+
+                icon.mobile {
+                    background-image: url("../img/smartphone.svg");
+                }
+
+                icon.location {
+                    background-image: url("../img/location.svg");
+                }
+
+                icon.globe {
+                    background-image: url("../img/globe.svg");
+                }
+            }
+        }
+
+        .skills {
+            padding: 0 $paddingDefault;
+
+            icon.crown {
+                background-image: url("../img/crown.svg");
+            }
+
+            h1 {
+                margin: $paddingDefault 0;
+                display: inline-block;
+                line-height: $iconDim;
+                vertical-align: top;
+                padding-left: $paddingDefault;
+            }
+
+            p {
+                font-weight: 200;
+                text-indent: $indentDefault;
+            }
+
+            .group {
+                padding: 0 $indentDefault;
+                margin-bottom: $paddingDefault;
+
+                .title {
+                    font-weight: 200;
+                    margin-bottom: $paddingDefault / 2;
+                }
+
+                .progress-bar {
+                    width: 100%;
+                    height: $paddingDefault;
+                    background: $colorPrimary; 
+                    @include border-radius($paddingDefault);
+                }
+
+                .progress-bar.bar-1 {
+                    @include gradient-bar(white, $colorPrimary, 20);
+                }
+
+                .progress-bar.bar-2 {
+                    @include gradient-bar(white, $colorPrimary, 40);
+                }
+
+                .progress-bar.bar-3 {
+                    @include gradient-bar(white, $colorPrimary, 60);
+                }
+
+                .progress-bar.bar-4 {
+                    @include gradient-bar(white, $colorPrimary, 80);
+                }
+
+                .progress-bar.bar-5 {
+                    @include gradient-bar(white, $colorPrimary, 100);
+                }
+
+            }
+        }
+    }
+
+    section {
+        flex: 2;
+        order: 2;
+    }
+}

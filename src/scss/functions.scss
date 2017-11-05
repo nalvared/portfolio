@@ -1,0 +1,21 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+
+@mixin display-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin gradient-bar($completeColor, $uncompleteColor, $percentage) {
+    background: $uncompleteColor; /* Old browsers */
+    background: -moz-linear-gradient(left, $completeColor 0%, $completeColor $percentage - 10%, $uncompleteColor $percentage + 10%, $uncompleteColor 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, $completeColor 0%, $completeColor $percentage - 10%, $uncompleteColor $percentage + 10%, $uncompleteColor 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, $completeColor 0%, $completeColor $percentage - 10%, $uncompleteColor $percentage + 10%, $uncompleteColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

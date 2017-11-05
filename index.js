@@ -5,9 +5,10 @@ const pug = require('pug');
 const http = require('http');
 const https = require('https');
 const fs = require('fs');
+const i18n = require("i18n");
 
 /**
- * Configure HTTPS thanks to use Let's Encrypt
+ * Configure HTTPS credentials thanks to use Let's Encrypt
  */
 
 const credentials = {
@@ -16,6 +17,7 @@ const credentials = {
   ca: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com/chain.pem')
 };
 
+// Creating express APP
 const app = express();
 
 /**
@@ -27,7 +29,15 @@ app.set("view engine", "pug");
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
+// i18n for intenationalization
+i18n.configure({
+  directory: __dirname + '/locales',
+  defaultLocale: 'en',
+  objectNotation: true
+});
+app.use(i18n.init);
 
+// Routes
 app.get('/', (req, res) => {
     res.render("home");
 });

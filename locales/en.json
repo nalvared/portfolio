@@ -1,0 +1,52 @@
+{
+	"home_title": "Welcome",
+	"nav": {
+		"name": "Néstor Álvarez-Díaz",
+		"profile": "Me",
+		"about_me": "About me",
+		"contact": "Contact",
+		"skills": "Skills",
+		"work": "Work experience",
+		"education": "Education",
+		"research": "Main research"
+	},
+	"profile": {
+		"name": "Néstor Álvarez-Díaz",
+		"job": "Computer Engineer"
+	},
+	"about": {
+		"title": "About me",
+		"p1": "I'm a 25 years old Computer engineer from Tenerife (Spain). I love a lot of technologies and I try to be updated with them. In particular, my real passion is Web development both front and back end.",
+		"p2": "Currently, I've been working since last year with different kind of blockchain, specially with Ethereum and its Smart contracts in Solidity language. Without forget my passion, I use to combine a blockchain enviroment with web framework like Truffle, all looks better if it looks pretty!",
+		"p3": "Besides blockchain, I've worked during few years in a research department of cryptography at University of La Laguna. I've been developing a web and mobile ecosystem with several purposes with security by default."
+	},
+	"contact": {
+		"title": "Contact with me",
+		"phone_number": "(+34) 676 154 797",
+		"email": "contact [at] nalvared.com",
+		"address": "La Orotava, Santa Cruz de Tenerife, Spain"
+	},
+	"skills": {
+		"title": "Top skills",
+		"sk1": {
+			"title": "Front-end (Mobile & Web)",
+			"bar": "4"
+		},
+		"sk2": {
+			"title": "Back-end (Node.js & Java)",
+			"bar": "3"
+		},
+		"sk3": {
+			"title": "Android (Native)",
+			"bar": "4"
+		},
+		"sk4": {
+			"title": "Blockchain (Ethereum & Hyperledger)",
+			"bar": "2"
+		},
+		"sk5": {
+			"title": "Machine Learning (Regression & Clustering)",
+			"bar": "1"
+		}
+	}
+}

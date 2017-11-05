@@ -1,1 +1,74 @@
-h1 It works
+<!DOCTYPE html>
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        
+        title= __('home_title')
+    
+        // Link styles in CSS public/css/*.css
+        link(rel="stylesheet", href="./css/main.css")
+    body
+        ul.navigation(role="navigation")
+            li
+                a.tag(href="#")= __("nav.name")
+            li
+                a(href="#")= __("nav.profile")
+            li
+                a(href="#")= __("nav.about_me")
+            li
+                a(href="#")= __("nav.contact")
+            li
+                a(href="#")= __("nav.skills")
+            li
+                a(href="#")= __("nav.work")
+            li
+                a(href="#")= __("nav.education")
+            li
+                a(href="#")= __("nav.research")
+        .main
+            aside
+                .profile
+                    img.clip(src="./img/profile.jpg", alt="Profile photo")
+                    .title
+                        h1= __("profile.name")
+                        h2= __("profile.job")
+                .aboutme
+                    icon.user
+                    h1= __("about.title")
+                    p= __("about.p1")
+                    p= __("about.p2")
+                    p= __("about.p3")
+                .contact
+                    icon.email
+                    h1= __("contact.title")
+                    p
+                        icon.mobile
+                        = __("contact.phone_number")
+                    p
+                        icon.globe
+                        = __("contact.email")
+                    p
+                        icon.location
+                        = __("contact.address")
+                .skills
+                    icon.crown
+                    h1= __("skills.title")
+                    .group
+                        .title= __("skills.sk1.title")
+                        .progress-bar(class="bar-" + __("skills.sk1.bar"))
+                    .group
+                        .title= __("skills.sk2.title")
+                        .progress-bar(class="bar-" + __("skills.sk2.bar"))
+                    .group
+                        .title= __("skills.sk3.title")
+                        .progress-bar(class="bar-" + __("skills.sk3.bar"))
+                    .group
+                        .title= __("skills.sk4.title")
+                        .progress-bar(class="bar-" + __("skills.sk4.bar"))
+                    .group
+                        .title= __("skills.sk5.title")
+                        .progress-bar(class="bar-" + __("skills.sk5.bar"))
+            section
+                h1 Work experience

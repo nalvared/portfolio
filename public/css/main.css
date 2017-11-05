@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700");
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif; }
+
+ul {
+  padding: 0 !important; }
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: #151e2d;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+  min-height: 60px; }
+  .navigation li {
+    line-height: 60px;
+    padding: 0 !important; }
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+    transition: background 0.5s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .navigation a.tag {
+    display: none; }
+  .navigation a:hover {
+    background: #502535;
+    transition: background 0.5s cubic-bezier(0.47, 0, 0.745, 0.715); }
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around; }
+    .navigation li {
+      flex-grow: 1;
+      text-align: center; } }
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0; }
+    .navigation a {
+      text-align: center;
+      padding: 0 10px; }
+    .navigation a.tag {
+      display: inherit;
+      background: #2d4161;
+      cursor: default; } }
+
+.main {
+  display: flex;
+  flex-flow: row wrap; }
+  .main h1, .main h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .main h1 {
+    font-weight: 300 !important; }
+  .main h2 {
+    font-weight: 100 !important; }
+  .main aside {
+    background: #151e2d;
+    flex: 1;
+    order: 1;
+    color: white;
+    padding-bottom: 16px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start; }
+    .main aside .profile {
+      background: #2d4161;
+      padding: 16px;
+      min-width: 256px;
+      text-align: center; }
+      .main aside .profile img.clip {
+        z-index: 2;
+        width: 256px;
+        height: 256px;
+        clip-path: circle(at center); }
+    .main aside icon {
+      margin: 16px 0;
+      background-size: 32px 32px;
+      display: inline-block;
+      width: 32px;
+      height: 32px; }
+    .main aside .aboutme {
+      padding: 0 16px; }
+      .main aside .aboutme icon.user {
+        background-image: url("../img/user.svg"); }
+      .main aside .aboutme h1 {
+        margin: 16px 0;
+        display: inline-block;
+        line-height: 32px;
+        vertical-align: top;
+        padding-left: 16px; }
+      .main aside .aboutme p {
+        font-weight: 200;
+        text-indent: 25px; }
+    .main aside .contact {
+      padding: 0 16px; }
+      .main aside .contact icon.email {
+        background-image: url("../img/email.svg"); }
+      .main aside .contact h1 {
+        margin: 16px 0;
+        display: inline-block;
+        line-height: 32px;
+        vertical-align: top;
+        padding-left: 16px; }
+      .main aside .contact p {
+        font-weight: 200;
+        padding-left: 25px;
+        margin: 0;
+        word-break: break-word; }
+        .main aside .contact p icon {
+          vertical-align: middle;
+          margin-right: 25px; }
+        .main aside .contact p icon.mobile {
+          background-image: url("../img/smartphone.svg"); }
+        .main aside .contact p icon.location {
+          background-image: url("../img/location.svg"); }
+        .main aside .contact p icon.globe {
+          background-image: url("../img/globe.svg"); }
+    .main aside .skills {
+      padding: 0 16px; }
+      .main aside .skills icon.crown {
+        background-image: url("../img/crown.svg"); }
+      .main aside .skills h1 {
+        margin: 16px 0;
+        display: inline-block;
+        line-height: 32px;
+        vertical-align: top;
+        padding-left: 16px; }
+      .main aside .skills p {
+        font-weight: 200;
+        text-indent: 25px; }
+      .main aside .skills .group {
+        padding: 0 25px;
+        margin-bottom: 16px; }
+        .main aside .skills .group .title {
+          font-weight: 200;
+          margin-bottom: 8px; }
+        .main aside .skills .group .progress-bar {
+          width: 100%;
+          height: 16px;
+          background: #2d4161;
+          -webkit-border-radius: 16px;
+          -moz-border-radius: 16px;
+          -ms-border-radius: 16px;
+          border-radius: 16px; }
+        .main aside .skills .group .progress-bar.bar-1 {
+          background: #2d4161;
+          /* Old browsers */
+          background: -moz-linear-gradient(left, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, white 0%, white 10%, #2d4161 30%, #2d4161 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .main aside .skills .group .progress-bar.bar-2 {
+          background: #2d4161;
+          /* Old browsers */
+          background: -moz-linear-gradient(left, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, white 0%, white 30%, #2d4161 50%, #2d4161 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .main aside .skills .group .progress-bar.bar-3 {
+          background: #2d4161;
+          /* Old browsers */
+          background: -moz-linear-gradient(left, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, white 0%, white 50%, #2d4161 70%, #2d4161 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .main aside .skills .group .progress-bar.bar-4 {
+          background: #2d4161;
+          /* Old browsers */
+          background: -moz-linear-gradient(left, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, white 0%, white 70%, #2d4161 90%, #2d4161 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+        .main aside .skills .group .progress-bar.bar-5 {
+          background: #2d4161;
+          /* Old browsers */
+          background: -moz-linear-gradient(left, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, white 0%, white 90%, #2d4161 110%, #2d4161 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+  .main section {
+    flex: 2;
+    order: 2; }
