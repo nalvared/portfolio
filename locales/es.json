@@ -2,71 +2,71 @@
 	"home_title": "Néstor Álvarez-Díaz CV",
 	"nav": {
 		"name": "Néstor Álvarez-Díaz",
-		"about_me": "About me",
-		"contact": "Contact",
-		"skills": "Skills",
-		"work": "Work",
-		"education": "Education",
-		"research": "Research"
+		"about_me": "Yo",
+		"contact": "Contacto",
+		"skills": "Habilidades",
+		"work": "Trabajo",
+		"education": "Educación",
+		"research": "Investigación"
 	},
 	"profile": {
 		"name": "Néstor Álvarez-Díaz",
-		"job": "Computer Engineer"
+		"job": "Ingeniero Informático"
 	},
 	"about": {
-		"title": "About me",
-		"p1": "I'm a 25 years old Computer engineer from Tenerife (Spain). I love a lot of technologies and I try to be updated with them. In particular, my real passion is Web development both front and back end.",
-		"p2": "Currently, I've been working since last year with different kind of blockchain, specially with Ethereum and its Smart contracts in Solidity language. Without forget my passion, I use to combine a blockchain enviroment with web framework like Truffle, all looks better if it looks pretty!",
-		"p3": "Besides blockchain, I've worked during few years in a research department of cryptography at University of La Laguna. I've been developing a web and mobile ecosystem with several purposes with security by default."
+		"title": "Sobre mí",
+		"p1": "Tengo 25 años y soy Ingeniero informático desde Tenerife (España). Me encanta la tecnología y trato de estar al día de todo. En particular, mi verdadera pasión es el desarrollo web tanto el Front-end como el Back-end",
+		"p2": "En la actualidad, he estado trabajando en el último año con diferentes tipos de blockchain, especialmente con Ethereum y los contratos en Solidity. Intentando no dejar de lado mi pasión, suelo combinar el desarrollo en blockchain con la web con Frameworks como Truffle. ¡Todo luce mejor si está bonito!",
+		"p3": "Además de blockchain, he trabajado durante unos años en un departamento de investigación dedicado a la criptografía en la Universidad de la Laguna, donde he podido desarrollar aplicaciones web y móvil con diferentes objetivos y siempre la seguridad como requisito."
 	},
 	"contact": {
-		"title": "Contact with me",
+		"title": "Mis datos de contacto",
 		"phone_number": "(+34) 676 154 797",
 		"email": "contact [at] nalvared.com",
-		"address": "La Orotava, Santa Cruz de Tenerife, Spain"
+		"address": "La Orotava, Santa Cruz de Tenerife, España"
 	},
 	"skills": {
-		"title": "Top skills",
+		"title": "Habilidades 'top'",
 		"sk1": {
-			"title": "Front-end (Mobile & Web)",
+			"title": "Front-end (Móvil y Web)",
 			"bar": "4"
 		},
 		"sk2": {
-			"title": "Back-end (Node.js & Java)",
+			"title": "Back-end (Node.js y Java)",
 			"bar": "3"
 		},
 		"sk3": {
-			"title": "Android (Native)",
+			"title": "Android (Nativo)",
 			"bar": "4"
 		},
 		"sk4": {
-			"title": "Blockchain (Ethereum & Hyperledger)",
+			"title": "Blockchain (Ethereum e Hyperledger)",
 			"bar": "2"
 		},
 		"sk5": {
-			"title": "Machine Learning (Regression & Clustering)",
+			"title": "Machine Learning (Regresión & Agrupamiento)",
 			"bar": "1"
 		}
 	},
 	"work": {
-		"title": "Work experience",
+		"title": "Experiencia laboral",
 		"last": {
 			"date": "Nov 2017",
-			"title": "Teaching and Research staff",
+			"title": "Personal docente investigador",
 			"subtitle": "Universidad de La Laguna",
-			"description": "I've worked in a broad variety of topics with the focus in the security, from airports luggage to mobility in the streets, increasing the efficiency and safety as much as possible."
+			"description": "He estado trabajando en una amplia variadad de temas con el foco en la seguridad, desde el aeropuerto y el equipaje hasta la mobilidad en la carreteras, incrementando la eficiencia y seguridad en la medida de lo posible."
 		},
 		"w2": {
 			"date": "Feb 2016",
-			"title": "Scholarship researcher",
+			"title": "Investigador, becario",
 			"subtitle": "Binter Sistemas SL",
-			"description": "I was collaborating in the creation a indoor location system based on Bluetooth Low Energy devices and mobile application in order to assign better the tasks inside an airport."
+			"description": "Tuve la oportunidad de colaborar en la creación de un sistema de localización para interiores basado en Bluetooth Low Energy y combinado con aplicaciones móviles con el propósito de asignar con una mayor exactitud las tareas dentro del aeropuerto."
 		},
 		"w1": {
 			"date": "May 2015",
-			"title": "Academic practices",
+			"title": "Prácticas académicas",
 			"subtitle": "Metropolitano de Tenerife SA",
-			"description": "I was helping in the development of an algorithm for behavior analysis, among other."
+			"description": "Ayudé al desarrollo de un algoritmo para el análisis del comportamiento entre otras actividades."
 		},
 		"first": {
 			"date": "Feb 2015"
@@ -76,51 +76,51 @@
 		"title": "Education",
 		"last": {
 			"date": "2017 - 2018",
-			"title": "Business Intelligence and Big Data",
-			"subtitle": "Master by Escuela de Organización Industrial (EOI)"
+			"title": "Business Intelligence y Big Data",
+			"subtitle": "Máster por Escuela de Organización Industrial (EOI)"
 		},
 		"s2": {
 			"date": "2015 - 2017",
-			"title": "Security of information and communication technologies (acron. MISTIC)",
-			"subtitle": "Master by Universitat Oberta de Catalunya"
+			"title": "Seguridad de las tecnologías de la información y la comunicación (acron. MISTIC)",
+			"subtitle": "Máster por Universitat Oberta de Catalunya"
 		},
 		"s1": {
 			"date": "2010 - 2015",
-			"title": "Degree in computer engineering",
-			"subtitle": "Degree by Universidad de La Laguna"
+			"title": "Grado en Ingeniería informática",
+			"subtitle": "Grado por Universidad de La Laguna"
 		},
 		"s0": {
-			"date": "High School & School"
+			"date": "Instituto y colegio"
 		}
 	},
 	"research": {
-		"title": "Research",
+		"title": "Investigación",
 		"last": {
-			"date": "October, 17, 2017",
+			"date": "17 de Octubre de 2017",
 			"title": "Smart Contracts based on Blockchain for Logistics Management",
 			"subtitle": "International Conference on Internet of Things and Machine Learning",
 			"description": "Current trade is being heavily influenced by emerging technologies. Despite many technological advances, logistics management is at a standstill about the improvements communication systems. Updating information during the whole process is an essential element in such systems but trust in that information is even more important. For this reason, providing a mechanism that can be verified and that allows increasing the level of trust of the stakeholders could contribute to the improvement of the logistic process. The main aim of this paper is to show an analysis of the current state of blockchain technology and its possibilities regarding the development of decentralized and self-verifiable applications focusing on their integrity. Besides, a new concept of program is defined thanks to the use of a set of smart contracts which should be deployed over the Ethereum blockchain."
 		},
 		"r4": {
-			"date": "January 16, 2017",
+			"date": "16 de Enero de 2017",
 			"title": "A Luggage Control System Based on NFC and Homomorphic Cryptography",
 			"subtitle": "16 de ene. de 2017  Descripción de la publicaciónMobile Information Systems Volume 2017 (2017), Article ID 2095161. 2015 ISI JCR Impact Factor: 0.842",
 			"description": "We propose an innovative luggage tracking and management system that can be used to secure airport terminal services and reduce the waiting time of passengers during check-in. This addresses an urgent need to streamline and optimize passenger flows at airport terminals and lowers the risk of terrorist threats. The system employs Near Field Communication (NFC) technology and homomorphic cryptography (the Paillier cryptosystem) to protect wireless communication and stored data. A security analysis and a performance test show the usability and applicability of the proposed system."
 		},
 		"r3": {
-			"date": "July 5, 2016",
+			"date": "5 de Julio de 2016",
 			"title": "Safe Control of Luggage with Homomorphic Cryptography",
 			"subtitle": "16th International Conference Computational and Mathematical Methods in Science and Engineering",
 			"description": "The aim of this proposal is to provide passengers with a complete system that allows reducing the waiting time when people try to check-in their luggage as well as with an innovative tool for the control and the management of suitcases. This goal tries to cover the need of optimizing passengers' operations inside airport terminals. Besides, the proposal allows increasing the security of air transport from the point of view of the control of the luggage, which currently is critical due to the existence of terrorist threats. For this purpose, Near Field Communication (NFC) is used and wireless communications have been protected with a scheme based on homomorphic cryptography, and in particular, in the Paillier cryptosystem."
 		},
 		"r2": {
-			"date": "February 26, 2016",
+			"date": "26 de Febrero de 2016",
 			"title": "Optimizing Resource Allocation and Indoor Location Using Bluetooth Low Energy",
 			"subtitle": "ICATM 2016 : 18th International Conference on Air Transport Management",
 			"description": "The recent tendency of 'Internet of Things' (IoT) has developed in the last years, causing the emergence of innovative communication methods among multiple devices. The appearance of Bluetooth Low Energy (BLE) has allowed a push to IoT in relation to smartphones. In this moment, a set of new applications related to several topics like entertainment and advertisement has begun to be developed but not much has been done till now to take advantage of the potential that these technologies can offer on many business areas and in everyday tasks. In the present work, the application of BLE technology and smartphones is proposed on some business areas related to the optimization of resource allocation in huge facilities like airports. An indoor location system has been developed through triangulation methods with the use of BLE beacons. The described system can be used to locate all employees inside the building in such a way that any task can be automatically assigned to a group of employees. It should be noted that this system cannot only be used to link needs with employees according to distances, but it also takes into account other factors like occupation level or category. In addition, it has been endowed with a security system to manage business and personnel sensitive data. The efficiency of communications is another essential characteristic that has been taken into account in this work."
 		},
 		"r1": {
-			"date": "July 22, 2015",
+			"date": "22 de Julio de 2015",
 			"title": "Task assignment through indoor location with Bluetooth Low Energy devices",
 			"subtitle": "4th International Conference on Theory and Practice in Modern Computing",
 			"description": "This work combines smartphones with Bluetooth Low Energy devices with the purpose of guaranteeing an efficient communication service in indoor installations. The combination of these two tools allows creating an innovative control unit to provide a more efficient and secure communication channel between a company and its employees. Besides, the system has also been endowed with the ability to optimize the assignment of the tasks using an indoor location system. This is part of a work in progress, which includes the deployment of the proposed system in an airport in order to optimize ground operations inside the airport."

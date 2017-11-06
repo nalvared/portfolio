@@ -31,6 +31,7 @@ app.use(bodyParser.json());
 
 // i18n for intenationalization
 i18n.configure({
+  locales: ['en','es'],
   directory: __dirname + '/locales',
   defaultLocale: 'en',
   objectNotation: true
