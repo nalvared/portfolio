@@ -125,5 +125,8 @@
 			"subtitle": "4th International Conference on Theory and Practice in Modern Computing",
 			"description": "This work combines smartphones with Bluetooth Low Energy devices with the purpose of guaranteeing an efficient communication service in indoor installations. The combination of these two tools allows creating an innovative control unit to provide a more efficient and secure communication channel between a company and its employees. Besides, the system has also been endowed with the ability to optimize the assignment of the tasks using an indoor location system. This is part of a work in progress, which includes the deployment of the proposed system in an airport in order to optimize ground operations inside the airport."
 		}
+	},
+	"foaf": {
+		"title": "foaf.title"
 	}
 }

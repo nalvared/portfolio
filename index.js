@@ -41,6 +41,7 @@ app.use(i18n.init);
 // Routes
 app.get('/', (req, res) => {
     res.render("home");
+
 });
 
 /**
