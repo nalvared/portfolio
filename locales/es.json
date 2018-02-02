@@ -41,7 +41,7 @@
 		},
 		"sk4": {
 			"title": "Blockchain (Ethereum e Hyperledger)",
-			"bar": "2"
+			"bar": "3"
 		},
 		"sk5": {
 			"title": "Machine Learning (Regresión & Agrupamiento)",
@@ -51,6 +51,11 @@
 	"work": {
 		"title": "Experiencia",
 		"last": {
+			"date": "Actual",
+			"title": "Investigador y desarrollador",
+			"subtitle": "Sedicii Innovations SL"
+		},
+		"w3": {
 			"date": "Nov 2017",
 			"title": "Personal docente investigador",
 			"subtitle": "Universidad de La Laguna",
