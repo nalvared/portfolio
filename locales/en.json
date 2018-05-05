@@ -27,21 +27,21 @@
 	},
 	"skills": {
 		"title": "Top skills",
-		"sk1": {
-			"title": "Front-end (Mobile & Web)",
-			"bar": "4"
-		},
 		"sk2": {
-			"title": "Back-end (Node.js & Java)",
+			"title": "Front-end (Mobile & Web)",
 			"bar": "3"
 		},
 		"sk3": {
+			"title": "Back-end (Node.js & Java)",
+			"bar": "3"
+		},
+		"sk4": {
 			"title": "Android (Native)",
 			"bar": "4"
 		},
-		"sk4": {
+		"sk1": {
 			"title": "Blockchain (Ethereum & Hyperledger)",
-			"bar": "3"
+			"bar": "4"
 		},
 		"sk5": {
 			"title": "Machine Learning (Regression & Clustering)",
@@ -53,7 +53,8 @@
 		"last": {
 			"date": "The present day",
 			"title": "Researcher and Developer",
-			"subtitle": "Sedicii Innovations SL"
+			"subtitle": "Sedicii Innovations SL",
+			"description":"I'm working as Blockchain specialist"
 		},
 		"w3": {
 			"date": "Nov 2017",

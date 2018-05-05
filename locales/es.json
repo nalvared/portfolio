@@ -27,19 +27,19 @@
 	},
 	"skills": {
 		"title": "Habilidades 'top'",
-		"sk1": {
+		"sk2": {
 			"title": "Front-end (Móvil y Web)",
 			"bar": "4"
 		},
-		"sk2": {
+		"sk3": {
 			"title": "Back-end (Node.js y Java)",
 			"bar": "3"
 		},
-		"sk3": {
+		"sk4": {
 			"title": "Android (Nativo)",
 			"bar": "4"
 		},
-		"sk4": {
+		"sk1": {
 			"title": "Blockchain (Ethereum e Hyperledger)",
 			"bar": "3"
 		},
@@ -53,7 +53,8 @@
 		"last": {
 			"date": "Actual",
 			"title": "Investigador y desarrollador",
-			"subtitle": "Sedicii Innovations SL"
+			"subtitle": "Sedicii Innovations SL",
+			"dscription":"Actualmente trabajo como especialista en Blockchain"
 		},
 		"w3": {
 			"date": "Nov 2017",

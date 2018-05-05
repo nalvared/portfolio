@@ -12,9 +12,9 @@ const i18n = require("i18n");
  */
 
 const credentials = {
-  key: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com/cert.pem'),
-  ca: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com/chain.pem')
+  key: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com-0002/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com-0002/cert.pem'),
+  ca: fs.readFileSync('/etc/letsencrypt/live/cv.nalvared.com-0002/chain.pem')
 };
 
 // Creating express APP
